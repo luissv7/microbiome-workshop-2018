@@ -415,7 +415,7 @@ less ~/local/src/rdp_classifier_2.12/README
 ----------------------------------
 # 8. Amalgamating code into a pipeline script<a name="header8"></a>
 
-Finally, having worked out how to  run each of the steps necssary to generate an OTU count table,
+Finally, having worked out how to  run each of the steps necessary to generate an OTU count table,
 it should now be possible to take the code for each step and add it to the script
 `16s_pipeline.sh`.
 
