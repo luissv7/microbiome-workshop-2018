@@ -295,8 +295,8 @@ however the UPARSE-OTU algorithm implicitly filters chimeras.
 ----------------------------------
 # 6. Creating a table of OTU abundance<a name="header6"></a>
 
-Having generated a set of sequences representing distinct bacterial taxa (OTUs). The next step is to
-quantify OTU abundance. This can be acheived by counting the number of sequences in each sample that
+Having generated a set of sequences representing distinct bacterial taxa (OTUs), the next step is to
+quantify OTU abundance. This can be achieved by counting the number of sequences in each sample that
 match each OTU. For a sequence to "match" an OTU it must be more than 97% similar to the 
 representative sequence for that OTU.
 
@@ -331,7 +331,7 @@ usearch -usearch_global \
 
 > Have a look at the format of the output file `otu_map.uc`. Can you identify the information in
 > each column? <br>
-> Can you fine a line in this file that begins with "N"?
+> Can you find a line in this file that begins with "N"?
 
 The output file generated when matching sample sequences to OTUs is in 
 [USEARCH cluster format][usearch-clusterformat]. It contains the best OTU match (if any) for each 
