@@ -333,7 +333,7 @@ estimate_richness(physeq, measures=c("Chao1", "Shannon"))
 ----------------------------------
 # 7. Analysis of beta diversity<a name="header7"></a>
 
-In contrast to alpha diversity, beta diversity metrics represent measurments of the extent to 
+In contrast to alpha diversity, beta diversity metrics represent measurements of the extent to 
 which the microbiome changes across individuals. For a discussion of the differences between
 alpha and beta diversity see [Jost 2007][ecology-jost2007].
 
@@ -342,8 +342,8 @@ the microbiome varies between every pair of individuals in a study. There are ma
 of similarity/dissimilarity. (For a more-or-less comprehensive summary see Chapter 7 of
 [Legendre & Legendre 2012][elsevier-numericalecology]).
 
-Pairwise comparison of similarity/dissimilarity between all sampels in a study can be used to
-generaet resemblance matrices, which can in turn, be used to plot visual summaries of beta
+Pairwise comparison of similarity/dissimilarity between all samples in a study can be used to
+generate resemblance matrices, which can in turn, be used to plot visual summaries of beta
 diversity.
 
 {% highlight R %}
